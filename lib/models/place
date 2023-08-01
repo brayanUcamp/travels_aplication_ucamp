@@ -1,0 +1,10 @@
+class PlacesTravel {
+  final String namePlace;
+  final String description;
+  final String urlImage;
+  final String country;
+  final String city;
+
+  PlacesTravel(
+      this.urlImage, this.description, this.namePlace, this.country, this.city);
+}
